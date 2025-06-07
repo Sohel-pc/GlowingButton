@@ -9,3 +9,13 @@ const syncPointer = ({ x: pointerX, y: pointerY }) => {
   document.documentElement.style.setProperty('--yp', yp)
 }
 document.body.addEventListener('pointermove', syncPointer)
+
+
+document.querySelectorAll("button").forEach(button => {
+  button.addEventListener("click", (e) => {
+    const link = button.querySelector("a");
+    if (link && link.href) {
+      window.open(link.href, "_blank");
+    }
+  });
+});
