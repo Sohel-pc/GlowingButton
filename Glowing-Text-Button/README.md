@@ -29,7 +29,7 @@
 ## Author
 
 - LinkedIn - [https://www.linkedin.com/in/sohel-hussain]
-- Github - [https://github.com/Amir-Ranjbr]
+- Github - [https://github.com/Sohel-pc]
 
 <div align="center">
 
